@@ -1,0 +1,18 @@
+SmartTraffic/
+│── backend/                  
+│   │── models/               
+│   │   ├── yolo_model.py      # YOLO model for vehicle detection
+│   │── services/             
+│   │   ├── video_processing.py  # Processes live camera feeds
+│   │── main.py                # Flask API to manage traffic
+│   │── config.py              # Configuration file
+│── frontend/                 
+│   │── public/                
+│   │── src/                   
+│   │   ├── App.js             # React frontend for live dashboard
+│   │   ├── components/        
+│   │   ├── styles.css         
+│── models/                    # Pretrained YOLO model files
+│── dataset/                    # Sample traffic videos
+│── requirements.txt            
+│── README.md                  
